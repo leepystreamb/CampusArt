@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Rubik:ital,wght@0,300;0,400;1,300&display=swap');
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+body{
+  padding,margin: 0px;
+}
+
+.nav_items li{
+display: inline-block;
+padding:0px 20px;
+}
+
+
+h1{
+  font-family: "cambria",serif;
+  font-style: italic;
+}
+
+#introtitle{
+
+}
+ul,li,a{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+.quote{
+  font-style: italic;
+}
+
+iframe{
+  width:80%;
+}
+
+#return{
+  display: flex;
+  left:5%;
+}
+
+.buttons{
+  padding: 20px 0 0 0;
+  font-size: 20px;
+}
+
+#button_more{
+  border-radius: 50px;
+  opacity: 50%;
+  transition: all .2s linear;
+}
+
+#button_more:hover{
+  opacity: 100%;
+}
+
+
+.section1{
+  background-image: url("bg_elegy.gif");
+  width:100%;
+  height:100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0px 15px 10px #888888;
+}
+
+.Btitles{
+  padding-left:20%;
+}
+
+.titleTXT{
+  width: 40%;
+}
+
+.intro {
+ padding: 5%;
+ background-image: url(slide3.jpg);
+ background-attachment: fixed;
+ background-position: top center;
+ background-size: cover;
+}
+
+article{
+font-family: 'Playfair Display', serif;
+ font-size: 2vw;
+ line-height: 1.5;
+ margin-top: 0%;
+ margin-bottom: 10%;
+ padding: 10%;
+
+ color: #ddd;
+ background-color: rgba(0, 0, 0, 0.6);
+}
+
+iframe{
+  width: 80%;
+  margin-left: 10%;
+}
+
+h3 {
+ font-family: 'Playfair Display', serif;
+ font-size: 8.5vw;
+ font-weight: 300;
+ line-height: 1;
+
+ width: 50%;
+ margin-top: 2em;
+ margin-bottom: 1em;
+
+ color: white;
+ text-shadow: 5px 5px 1.5vw black;
+ text-align: right;
+ position: relative;
+ left:50%;
+}
+
+
+h3 span {
+ font-size: 3vw;
+ position: relative;
+ top: 1em;
+
+ display: block;
+
+ color: #30C2B3;
+ text-shadow: 1px 1px 1px grey;
+}
+
+h4 {
+ font-family: 'Rubik',sans-serif;
+ font-size: 3vw;
+ font-weight: 300;
+
+ text-align: center;
+ letter-spacing: 0.2em;
+
+ color: #30C2B3;
+}
+
+#last{
+  font-family: 'Playfair Display', serif;
+ font-size: 2vw;
+color: white;
+text-align: center;
+}
+
+.backtop{
+  color: white;
+  text-align: center;
+}
+
+.backtop a{
+  color:white;
+}
+
+#backtop a, #previous a:hover{
+  opacity:50%;
+}
