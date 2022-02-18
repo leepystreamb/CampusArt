@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="essay.css"/>
+<title>Elegy in Time | PY LEE</title>
+</head>
+<div class="section1">
+  <header id="header">
+    <nav id="navbar">
+      <!--<a href="#" id="return">&#11164; Previous Page</a>-->
+      <ul class="nav_items">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Essays + Illustrations</a></li>
+        <li><a href="#">Designs</a></li>
+        <li><a href="#">Photography</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="Btitles">
+    <h1>Elegy in Time</h1>
+    <h2>Video Installation | 2019</h2>
+    <div class="buttons">
+      <a href="#intro"><p id="button_more">&#11167;  More...</p></a>
+    </div>
+  </div>
+</div>
+
+<body>
+  <div class="intro" id="intro">
+    <h3><i>Elegy in Time</i><span>VIDEO + ARTIST STATEMENT</span></h3>
+    <article class="">
+      <iframe width="1080" height="608"
+    src="https://www.youtube.com/embed/jcjb581umtg">
+      </iframe>
+      <p><i>Elegy in Time</i> is a multi-channelled video installation that showcases the
+cityscapes of Hong Kong in the poetic mode of city symphony,featuring the treasured and ignored. Through the visual representations curated on the three screens, each performs a trajectory of
+the sentiment I have for the Hong Kong in the eyes of Hongkongese, the outsiders and myself. This is also my farewell gift to Hong Kong, and my mourning process for the death of Hong Kong.</p>
+      <h4>THEORECTICAL TEXT</h4>
+      <p>The split channelled setup was to present the conflict between the three visions of Hong Kong: for the outsiders, a cliché, one-dimensioned, glamorised representaion; for the fellow Hongkongese, a mere nostalgic and commercialised branding; and finally, how I see Hong Kong. </p>
+      <p>Therefore, the
+videos are synchronised and curated with associative montage to be a harmonised conflict
+instead of one unified mood in city symphony. Nonetheless, the city symphony method is
+mainly visual, I argue the work does more than expressing my sentiments of grudge and
+mournfulness. The flâneur-ism manner of shooting the footage has been a reminder of my
+individual impression on Hong Kong, even simply in fragmented imageries, can be mapped
+into the underlying sociopolitical criticism. </p>
+<p>In the view of the others, Hong Kong has been reduced to westerners’ fetish on the high-tech Orientalism in
+cyberpunk movies, or their tiptoeing experience of the token ‘Chinese’ culture in a less
+intimidating way. And among the younger generations in Hong Kong, growing up in the post-colonial days developed a fascination over the
+nostalgic Hong Kong that may have never existed. By emphasising the clichés and false memories in the bluntant imageries lying around in Hong Kong, abeit illusional and misguided, was not to discredit or nullify them. Rather, it became an explotation vehicle to further solidify their reminiscence as Hong Kong's cause of death. </p>
+<br>
+<hr>
+<br>
+<p id="last"><i>This project, as a sincere gift from the bottom of my heart, to you: Hong Kong.</i></p>
+    </article>
+    <div class="backtop">
+      <a href="#" id="backtotop"><p>&#11165; Back to Top</p></a>
+      <a href="#" id="previous">&#11164; Back to Previous Page</a>
+    </div>
+  </div>
+
+</body>
+
+</html>
