@@ -7,8 +7,9 @@ header{
   padding: 30px 10%;
 }
 
-body{
+*{
   padding,margin: 0px;
+  font-family: 'Times New Roman',serif;
 }
 
 .nav_items li{
@@ -157,6 +158,10 @@ text-align: center;
 
 .backtop a{
   color:white;
+}
+
+.backtop span{
+  opacity: 0;
 }
 
 #backtop a, #previous a:hover{
