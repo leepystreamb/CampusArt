@@ -22,8 +22,8 @@ h1{
   font-style: italic;
 }
 
-#introtitle{
-
+.symbol{
+  font-family: sans-serif;
 }
 ul,li,a{
   text-decoration: none;
@@ -36,11 +36,6 @@ ul,li,a{
 
 iframe{
   width:80%;
-}
-
-#return{
-  display: flex;
-  left:5%;
 }
 
 .buttons{
