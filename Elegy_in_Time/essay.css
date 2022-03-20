@@ -9,6 +9,7 @@ header{
 
 *{
   padding,margin: 0px;
+  font-family: "Times New Roman", sans-serif;
 }
 
 .nav_items li{
@@ -22,9 +23,6 @@ h1{
   font-style: italic;
 }
 
-.symbol{
-  font-family: "Droid Sans", sans-serif;
-}
 
 ul,li,a{
   text-decoration: none;
@@ -42,6 +40,14 @@ iframe{
 .buttons{
   padding: 20px 0 0 0;
   font-size: 20px;
+}
+
+.symbol{
+  width:1rem;
+}
+
+.symbol2{
+  width:.7rem;
 }
 
 #button_more{
