@@ -2,13 +2,13 @@
 *{
   margin: 0px;
   padding:0px;
-  font-family: "Times New Roman", sans-serif;
 }
 header{
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 3% 0 3% 0;
+  font-family: "Times New Roman", sans-serif;
 }
 
 body{
@@ -50,9 +50,9 @@ h3{
   width: 70%;
   display: hidden;
   text-align: left;
-   font-size: 1.2em;
-   line-height: 1.5;
-   font-family: 'Playfair Display', serif;
+  font-size: 1.2em;
+  line-height: 1.5;
+  font-family: 'Playfair Display', serif;
 }
 
 #button_more{
@@ -68,10 +68,12 @@ h3{
 
 .symbol{
   width:.9rem;
+  padding:0;
 }
 
 .symbol2{
   width: .7rem;
+  padding:0;
 }
 
 #artist{
@@ -197,10 +199,14 @@ h3{
   /**text-align: center;**/
 }
 
-.chapter img{
+img{
   display: inline-block;
   max-height: 55vh;
   padding:2em;
+}
+
+img .symbol,.symbol2{
+
 }
 
 #backtop{
@@ -208,6 +214,8 @@ h3{
   margin-top:10px;
   opacity: 50%;
   transition: all .2s linear;
+  font-family: "Times New Roman", sans-serif;
+  font-size:1rem;
 }
 
 #backtop:hover{
@@ -222,7 +230,7 @@ h3{
   .content{
     padding:3vw;
   }
-  .chapter img{
+  img{
     max-width: 90vw;
     padding:2vw;
   }
