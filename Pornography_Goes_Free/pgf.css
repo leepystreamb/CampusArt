@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+	 margin: 0;
+	 padding: 0;
+   box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 0 3% 0;
+	font-family: "Times New Roman",sans-serif;
+}
+
+.nav_items li{
+display: inline-block;
+padding:0px 20px;
+}
+
+ul,li,a{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+::-moz-selection {
+	 background: #FF9900;
+	 color: black;
+}
+::selection {
+	 background: #FF9900;
+	 color: black;
+}
+body {
+	 position: relative;
+	 font-family: "Spectral", serif;
+	 font-size: 1rem;
+}
+body::-webkit-scrollbar {
+	 width: 0.5rem;
+}
+body::-webkit-scrollbar-thumb {
+	 border: 0.25rem solid #000;
+}
+.flower {
+	 float: right;
+	 margin-right: -5rem;
+	 height: 33rem;
+	 shape-outside: url("ilu.png");
+	 shape-margin: 1rem;
+}
+.excerpt {
+	 margin: 0 auto;
+	 columns: 22rem auto;
+	 column-gap: 1.5rem;
+	 background: white;
+   border: 0.25rem solid black;
+   margin: 0 2rem 2rem 2rem;
+	 padding: 2.5rem;
+}
+h1, h2, h3 {
+	 font-weight: 400;
+	 text-align: center;
+}
+.title__first {
+	 margin: 3rem 0 -2.5rem 0;
+	 padding-left: 2rem;
+	 font-weight: 400;
+	 font-size: 2.5rem;
+	 font-style: italic;
+	 text-align: left;
+}
+.title__second {
+	 font-size: 5rem;
+	 text-align: left;
+}
+h2 {
+	 margin-top: 1rem;
+	 font-size: 1.25rem;
+	 line-height: 2rem;
+	 font-style: italic;
+}
+h3 {
+	 width: 15rem;
+	 margin: 3rem 0 6rem 0;
+	 padding: 0.5rem;
+	 font-size: 1.5rem;
+	 line-height: 2rem;
+	 font-weight: 400;
+	 font-style: italic;
+	 border-top: solid 0.15rem black;
+	 border-bottom: solid 0.15rem black;
+}
+p {
+	 text-align: justify;
+	 margin: 1rem 0;
+	 line-height: 1.5rem;
+}
+#start:first-letter {
+	 padding: 0.25rem;
+	 margin: -1rem 0.25rem -0.25rem 0;
+	 font-size: 3rem;
+}
+.title2 {
+	 font-size: 1.25rem;
+	 line-height: 2rem;
+	 font-style: italic;
+	 margin-bottom: 1rem;
+}
+
+.click{
+	color:#FF9900;
+}
+
+#footnote{
+	position: relative;
+	border-bottom: 2px dotted;
+	cursor: pointer;
+}
+
+#reference{
+	position: absolute;
+	font-size: .9rem;
+	left:-100%;
+	background-color: #FF9900;
+	white-space: nowrap;
+	padding:.5rem;
+	border-radius: 5px;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+	z-index: 1;
+}
+
+#footnote:hover #reference{
+	top:-2.5rem;
+	visibility: visible;
+	opacity: 1;
+}
+
+.backtop{
+	display:block;
+}
+
+#backtop{
+	text-align:center;
+	font-family: "Times New Roman", sans-serif;
+}
+
+.symbol2{
+	width:.7rem;
+}
