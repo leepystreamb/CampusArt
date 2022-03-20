@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Rubik:ital,wght@0,300;0,400;1,300&display=swap');
+*{
+  margin: 0px;
+  padding:0px;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 0 3% 0;
+  font-family: "Times New Roman", sans-serif;
+}
+
+
+.nav_items li{
+display: inline-block;
+padding:0px 20px;
+}
+
+ul,li,a{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+h1{
+  font-family: Arial, sans-serif;
+  font-size: 5vw;
+  font-weight: bold;
+}
+
+h3{
+  padding-bottom: 5vh;
+}
+
+.title1 p{
+  color:black;
+  font-size: 1.2em;
+  max-width:100%;
+  font-family: 'Playfair Display', serif;
+  padding:2em;
+}
+
+.title1{
+  text-align: center;
+  width:100%;
+  height:100vh;
+}
+
+#title1{
+  padding-top:20vh;
+}
+
+.chapters{
+  padding:0;
+  width: 100%;
+  display:inline-block;
+  text-align: center;
+}
+
+.subchapter:hover{
+  cursor: pointer;
+}
+.subchapter{
+    height:50vh;
+    width:100%;
+    background-color: black;
+    margin:0px;
+    padding:0px;
+}
+
+.subchapter p{
+  font-size: 7vw;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  color:white;
+}
+
+.subt{
+  padding-top:20vh;
+}
+
+.content{
+  display: none;
+  color:black;
+  max-width:100%;
+}
+
+#sub_animal{
+  background-image: url('Animal/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center bottom;
+}
+
+#sub_people{
+  background-image: url('PPL/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+#sub_hk{
+  background-image: url('HK/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+
+#sub_other{
+  background-image: url('Misc/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center bottom;
+}
+
+#button_more{
+  border-radius: 50px;
+  opacity: 50%;
+  transition: all .2s linear;
+  padding-bottom: 5%;
+}
+
+#button_more:hover{
+  opacity: 100%;
+}
+
+img{
+  max-width: 90vw;
+  max-height:90vh;
+  padding:.5vw;
+}
+
+#backtop{
+  padding-bottom: 2%;
+  opacity: 50%;
+  transition: all .2s linear;
+}
+
+#backtop:hover{
+  opacity: 100%;
+}
+.footer{
+  text-align: center;
+}
+.foot{
+  opacity:0;
+}
+
+.symbol2{
+  width:.7rem;
+  padding:0;
+}
