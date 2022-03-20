@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Rubik:ital,wght@0,300;0,400;1,300&display=swap');
+*{
+  margin: 0px;
+  padding:0px;
+  font-family: "Times New Roman", sans-serif;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 0 3% 0;
+}
+
+body{
+  width:100vw;
+}
+
+.nav_items li{
+display: inline-block;
+padding:0px 20px;
+}
+
+ul,li,a{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+h1{
+  font-family: Arial, sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+h3{
+  padding-bottom: 5vh;
+}
+
+.title1{
+  text-align: center;
+  width:100%;
+  height:85vh;
+}
+
+#title1{
+  padding-top:20vh;
+}
+
+.hidden{
+  width: 70%;
+  display: hidden;
+  text-align: left;
+   font-size: 1.2em;
+   line-height: 1.5;
+   font-family: 'Playfair Display', serif;
+}
+
+#button_more{
+  border-radius: 50px;
+  opacity: 50%;
+  transition: all .2s linear;
+  padding-bottom: 5%;
+}
+
+#button_more:hover{
+  opacity: 100%;
+}
+
+.symbol{
+  width:.9rem;
+}
+
+.symbol2{
+  width: .7rem;
+}
+
+#artist{
+  display: none;
+}
+
+#spacing{
+  height: 40%;
+
+}
+.chapters{
+  padding:0;
+  width: 100%;
+  display:inline-block;
+  text-align: center;
+}
+
+.subchapter:hover{
+  cursor: pointer;
+}
+.subchapter{
+    font-size: 7vw;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color:white;
+    height:50vh;
+    width:100%;
+    background-color: black;
+    margin:0px;
+    padding:0px;
+}
+
+.subt{
+  justify-content: center;
+  padding-top:20vh;
+}
+
+#myface{
+  background-image:url(docs/face_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#myfather{
+  background-image:url(docs/father_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#myfamily{
+  background-image:url(docs/family_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#mywardrobe{
+  background-image:url(docs/wardrobe_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#mywindow{
+  background-image:url(docs/window_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#mykitchen{
+  background-image:url(docs/kitchen_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#mykindergarten{
+  background-image:url(docs/kindergarten_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#myprimary{
+  background-image:url(docs/primary_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#mysecondary{
+  background-image:url(docs/secondary_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#myfuture{
+  background-image:url(docs/future_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content{
+  display: none;
+  color:black;
+  font-size: 1.5em;
+  max-width:100%;
+  font-family: 'Playfair Display', serif;
+  padding:2em;
+}
+
+
+
+.quote{
+  font-family: 'Rubik',sans-serif;
+  font-style: italic;
+  font-size:2em;
+  /**text-align: center;**/
+}
+
+.chapter img{
+  display: inline-block;
+  max-height: 55vh;
+  padding:2em;
+}
+
+#backtop{
+  padding: 20px 20px 0;
+  margin-top:10px;
+  opacity: 50%;
+  transition: all .2s linear;
+}
+
+#backtop:hover{
+  opacity: 100%;
+}
+
+.foot{
+  opacity:0;
+}
+
+@media (orientation: portrait) {
+  .content{
+    padding:3vw;
+  }
+  .chapter img{
+    max-width: 90vw;
+    padding:2vw;
+  }
+}
