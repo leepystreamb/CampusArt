@@ -163,7 +163,3 @@ text-align: center;
 .backtop span{
   opacity: 0;
 }
-
-#backtop a, #previous a:hover{
-  opacity:50%;
-}
