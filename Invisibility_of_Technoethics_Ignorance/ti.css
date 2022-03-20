@@ -26,11 +26,11 @@ ul,li,a{
 }
 
 ::-moz-selection {
-	 background: #95e4e9;
+	 background: #5ee8f1;
 	 color: black;
 }
 ::selection {
-	 background: #95e4e9;
+	 background: #5ee8f1;
 	 color: black;
 }
 body {
