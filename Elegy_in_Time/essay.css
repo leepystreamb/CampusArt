@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Rubik:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Rubik:ital,wght@0,300;0,400;1,300&family=Droid+Sans&display=swap');
 
 header{
   display: flex;
@@ -23,8 +23,9 @@ h1{
 }
 
 .symbol{
-  font-family: sans-serif;
+  font-family: "Droid Sans", sans-serif;
 }
+
 ul,li,a{
   text-decoration: none;
   list-style: none;
