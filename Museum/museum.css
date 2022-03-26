@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Rubik:ital,wght@0,300;0,400;1,300&Heebo:wght@100;200;900&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3% 0 3% 0;
+	font-family: "Times New Roman",sans-serif;
+  background-color: black;
+  color:white;
+}
+
+body{
+  background-color: black;
+  color:white;
+}
+
+.nav_items li{
+display: inline-block;
+padding:0px 20px;
+}
+
+ul,li,a{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+.language{
+  text-align: center;
+  width:6.5rem;
+  height:6.5rem;
+  padding:1.5rem 1rem;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  cursor:pointer;
+  position: fixed;
+  top:5vh;
+  right:5%;
+  background-color: rgba(128, 0, 0, .5);
+  border-radius: 50%;
+}
+
+#switch,#switch2{
+    background-color: transparent;
+}
+
+.main{
+  padding:5vw;
+}
+
+::selection{
+  background-color:#800000;
+}
+
+h1{
+  font-size: 4rem;
+  text-align: center;
+}
+
+h3{
+  font-family: "Rubik", sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  color:#800000;
+}
+
+.source{
+  text-decoration: underline;
+}
+.sectionENG{
+  font-family: "Playfair Display", "Times New Roman", serif;
+  width:100%;
+  padding:0 2% 5vh;
+}
+
+.sectionFRA{
+  font-family: "Playfair Display", "Times New Roman", serif;
+  width:100%;
+  padding:0 2% 5vh;
+}
+
+#show{
+  display: inline-block;
+}
+
+#hidden{
+  display: none;
+}
+
+.text{
+  width:58%;
+  font-size: 1.5rem;
+}
+
+.images{
+  display: block;
+  width:40%;
+  padding:0 3vw;
+  text-align: center;
+  font-size:1rem;
+}
+
+#left{
+  float:left;
+}
+#right{
+  float:right;
+}
+
+img{
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  max-height: 50vh;
+  max-width:30vw;
+  margin:0 0 1rem;
+}
+
+@media screen and (max-width: 600px)
+{
+  #show{
+    display: block;
+  }
+  #left,#right{
+    float:none;
+  }
+  img{
+    max-width: 85%;
+    max-height:90vh;
+    margin:0;
+  }
+  h3,.desc{
+    text-align: center;
+  }
+  .text,.images{
+    width:100%;
+    padding:0;
+  }
+  .text{
+    margin-left:1rem;
+  }
+  .sectionFRA,.sectionENG{
+    padding:1rem;
+  }
+
+  .language{
+    width:3rem;
+    height:3rem;
+    padding:.65rem .5rem;
+    font-size: 1.5rem;
+    top:5vh;
+    right:5%;
+  }
+}
+
+.sub{
+  font-size: 2rem;
+}
+
+.backtop{
+  text-align: center;
+}
+
+.symbol2{
+  border-style: none;
+  width:.7rem;
+  margin:0;
+}
